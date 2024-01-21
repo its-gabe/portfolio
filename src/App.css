@@ -1,0 +1,40 @@
+
+/* src/App.css */
+.App {
+  background: linear-gradient(to left, #001f3f, #004d40); /* Substitua as cores conforme desejado */
+  color: #fff; /* Cor do texto */
+  min-height: 100vh; /* Garante que o gradiente se estenda por toda a altura da tela */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.category-box {
+  background-color: black;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #000; /* Cor da borda da caixa */
+  border-radius: 20px; /* Borda arredondada */
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; /* Adiciona uma transição suave no hover */
+  text-align: center;
+
+
+  &:hover {
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Sombra branca ao passar o mouse */
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
