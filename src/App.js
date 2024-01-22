@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
-import Header from './src/components/Header';
-import ProjectCategories from './src/components/ProjectCategories';
+import Header from './components/Header';
+import ProjectCategories from './components/ProjectCategories';
 import './App.css';
 
 const App = () => {
