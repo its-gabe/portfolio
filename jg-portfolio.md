@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "joao gabriel's portfolio"
-permalink: /src/App.js
+permalink: /public/index.html
 ---
 
 ## Código do App.js
